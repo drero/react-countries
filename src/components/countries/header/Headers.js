@@ -17,7 +17,7 @@ export default class Headers extends Component {
           value={filter}
           onChange={this.handleInputChange}
         />{' '}
-        ||
+        |
         <span className={css.countries}>
           Países: <strong>{countryCount}</strong>
         </span>{' '}
